@@ -1,0 +1,142 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 24/05/2019 05:29
+  	*/
+
+@font-face {
+  font-family: "Flaticon";
+  src: url("../../fonts/Flaticon.eot");
+  src: url("../../fonts/Flaticon-1.eot") format("embedded-opentype"),
+       url("../../fonts/Flaticon.woff2") format("woff2"),
+       url("../../fonts/Flaticon.woff") format("woff"),
+       url("../../fonts/Flaticon.ttf") format("truetype"),
+       url("../../fonts/Flaticon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../../fonts/Flaticon.svg") format("svg");
+  }
+}
+
+[class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+[class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+font-style: normal;
+}
+
+.flaticon-add-user:before { content: "\f100"; }
+.flaticon-play-button:before { content: "\f101"; }
+.flaticon-tick:before { content: "\f102"; }
+.flaticon-smartphone:before { content: "\f103"; }
+.flaticon-map:before { content: "\f104"; }
+.flaticon-binoculars:before { content: "\f105"; }
+.flaticon-like:before { content: "\f106"; }
+.flaticon-controls:before { content: "\f107"; }
+.flaticon-clock:before { content: "\f108"; }
+.flaticon-placeholder:before { content: "\f109"; }
+.flaticon-users:before { content: "\f10a"; }
+.flaticon-list:before { content: "\f10b"; }
+.flaticon-desktop:before { content: "\f10c"; }
+.flaticon-toy:before { content: "\f10d"; }
+.flaticon-mortarboard:before { content: "\f10e"; }
+.flaticon-doc:before { content: "\f10f"; }
+.flaticon-pdf:before { content: "\f110"; }
+.flaticon-apartment:before { content: "\f111"; }
+.flaticon-coding:before { content: "\f112"; }
+.flaticon-shipped:before { content: "\f113"; }
+.flaticon-trophy:before { content: "\f114"; }
+.flaticon-taxi:before { content: "\f115"; }
+.flaticon-team:before { content: "\f116"; }
+.flaticon-bar-chart:before { content: "\f117"; }
+.flaticon-bell:before { content: "\f118"; }
+.flaticon-hand-shake:before { content: "\f119"; }
+.flaticon-fast-food:before { content: "\f11a"; }
+.flaticon-medal:before { content: "\f11b"; }
+.flaticon-man:before { content: "\f11c"; }
+.flaticon-doctor:before { content: "\f11d"; }
+.flaticon-group:before { content: "\f11e"; }
+.flaticon-list-1:before { content: "\f11f"; }
+.flaticon-loupe:before { content: "\f120"; }
+.flaticon-love:before { content: "\f121"; }
+.flaticon-worker:before { content: "\f122"; }
+.flaticon-businessman:before { content: "\f123"; }
+.flaticon-team-1:before { content: "\f124"; }
+.flaticon-tshirt:before { content: "\f125"; }
+.flaticon-creative:before { content: "\f126"; }
+.flaticon-shield:before { content: "\f127"; }
+.flaticon-vector:before { content: "\f128"; }
+.flaticon-smile:before { content: "\f129"; }
+.flaticon-personal-profile:before { content: "\f12a"; }
+.flaticon-application:before { content: "\f12b"; }
+.flaticon-conversation:before { content: "\f12c"; }
+.flaticon-interview:before { content: "\f12d"; }
+.flaticon-interview-1:before { content: "\f12e"; }
+.flaticon-resume:before { content: "\f12f"; }
+.flaticon-job:before { content: "\f130"; }
+.flaticon-approval:before { content: "\f131"; }
+.flaticon-conversation-1:before { content: "\f132"; }
+.flaticon-profiles:before { content: "\f133"; }
+.flaticon-recruitment:before { content: "\f134"; }
+.flaticon-contract:before { content: "\f135"; }
+.flaticon-certificate:before { content: "\f136"; }
+.flaticon-curriculum:before { content: "\f137"; }
+.flaticon-check-list:before { content: "\f138"; }
+.flaticon-video-conference:before { content: "\f139"; }
+.flaticon-appointment:before { content: "\f13a"; }
+.flaticon-time:before { content: "\f13b"; }
+.flaticon-hired:before { content: "\f13c"; }
+.flaticon-job-1:before { content: "\f13d"; }
+.flaticon-hiring:before { content: "\f13e"; }
+.flaticon-hiring-1:before { content: "\f13f"; }
+.flaticon-selection:before { content: "\f140"; }
+.flaticon-microphone:before { content: "\f141"; }
+.flaticon-career:before { content: "\f142"; }
+.flaticon-notification:before { content: "\f143"; }
+.flaticon-interview-2:before { content: "\f144"; }
+.flaticon-job-2:before { content: "\f145"; }
+.flaticon-thinking:before { content: "\f146"; }
+.flaticon-resume-1:before { content: "\f147"; }
+.flaticon-video-conference-1:before { content: "\f148"; }
+.flaticon-handshake:before { content: "\f149"; }
+.flaticon-rating:before { content: "\f14a"; }
+.flaticon-clothes:before { content: "\f14b"; }
+.flaticon-job-3:before { content: "\f14c"; }
+.flaticon-interview-3:before { content: "\f14d"; }
+.flaticon-recruitment-1:before { content: "\f14e"; }
+.flaticon-briefcase:before { content: "\f14f"; }
+.flaticon-skills:before { content: "\f150"; }
+.flaticon-approved:before { content: "\f151"; }
+.flaticon-salary:before { content: "\f152"; }
+.flaticon-contact:before { content: "\f153"; }
+.flaticon-position:before { content: "\f154"; }
+.flaticon-strategy:before { content: "\f155"; }
+.flaticon-man-1:before { content: "\f156"; }
+.flaticon-women:before { content: "\f157"; }
+.flaticon-interview-4:before { content: "\f158"; }
+.flaticon-selection-process:before { content: "\f159"; }
+.flaticon-salary-1:before { content: "\f15a"; }
+.flaticon-balance:before { content: "\f15b"; }
+.flaticon-account:before { content: "\f15c"; }
+/* .flaticon-rubber-stamp:before { content: "\f15d"; margin-left: 15px;} */
+.flaticon-promotion:before { content: "\f15e"; }
+.flaticon-chat:before { content: "\f15f"; }
+.flaticon-manager:before { content: "\f160"; }
+.flaticon-debit-card:before { content: "\f161"; }
+/* .flaticon-chair:before { content: "\f162"; margin-left: 22px;} */
+.flaticon-mortarboard-1:before { content: "\f163"; }
+.flaticon-suitcase:before { content: "\f164"; }
+.flaticon-check-in:before { content: "\f165"; }
+.flaticon-headhunting:before { content: "\f166"; }
+.flaticon-focus:before { content: "\f167"; }
+.flaticon-money:before { content: "\f168"; }
+.flaticon-coin:before { content: "\f169"; }
+/* .flaticon-geography:before { content: "\f16a"; margin-left: 15px;} */
+.flaticon-headphones:before { content: "\f16b"; }
+/* .flaticon-followers:before { content: "\f16c";  margin-left: 20px;} */
+/* .flaticon-attachment:before { content: "\f16d"; margin-left: 22px;} */
+/* .flaticon-commerce-and-shopping:before { content: "\f16e";margin-left: 22px; } */
+.flaticon-mortgage:before { content: "\f16f"; }
