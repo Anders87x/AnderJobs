@@ -37,11 +37,11 @@
       </a>
 
       <div class="add-listing">
-          <div class="login d-inline-block mr-4">
-            <a href="login.html" data-toggle="modal" data-target="#exampleModalCenter"><i class="far fa-user pr-2"></i>Iniciar Sesion</a>
-          </div>
-          <a class="btn btn-white btn-md" href="post-a-job.html"> <i class="fas fa-plus-circle"></i>Publicar Trabajo</a>
+        <div class="login d-inline-block mr-4">
+          <a href="login.html" data-toggle="modal" data-target="#exampleModalCenter"><i class="far fa-user pr-2"></i>Acceder</a>
         </div>
+        <a class="btn btn-white btn-md" href="post-a-job.html"> <i class="fas fa-plus-circle"></i>Publicar</a>
+      </div>
     </div>
   </nav>
 </header>
