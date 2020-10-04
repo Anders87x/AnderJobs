@@ -1,83 +1,20 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="HTML5 Template">
-    <meta name="description" content="AnderJobs</>">
-    <meta name="author" content="potenzaglobalsolutions.com">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <?php require_once("../Head/head.php");?> 
     <title>AnderJobs</></title>
-    <!-- Favicon -->
-    <link href="..\..\public\images\favicon.ico" rel="shortcut icon">
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700" rel="stylesheet">
-    <!-- CSS Global Compulsory (Do not remove)-->
-    <link rel="stylesheet" href="..\..\public\css\font-awesome\all.min.css">
-    <link rel="stylesheet" href="..\..\public\css\flaticon\flaticon.css">
-    <link rel="stylesheet" href="..\..\public\css\bootstrap\bootstrap.min.css">
-    <!-- Page CSS Implementing Plugins (Remove the plugin CSS here if site does not use that feature)-->
-    <link rel="stylesheet" href="..\..\public\css\select2\select2.css">
-    <!-- Template Style -->
-    <link rel="stylesheet" href="..\..\public\css\style.css">
   </head>
 <body>
 
 <!--=================================
 header -->
-<header class="header bg-dark">
-  <nav class="navbar navbar-static-top navbar-expand-lg header-sticky">
-    <div class="container-fluid">
-        <button id="nav-icon4" type="button" class="navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
-            <span></span>
-            <span></span>
-            <span></span>
-        </button>
-        <a class="navbar-brand" href="index.html">
-            <img class="img-fluid" src="..\..\public\images\logo.svg" alt="logo">
-        </a>
-        <div class="add-listing">
-            <div class="login d-inline-block mr-4">
-            <a href="login.html" data-toggle="modal" data-target="#exampleModalCenter"><i class="far fa-user pr-2"></i>Acceder</a>
-            </div>
-            <a class="btn btn-white btn-md" href="post-a-job.html"> <i class="fas fa-plus-circle"></i>Publicar</a>
-        </div>
-    </div>
-  </nav>
-</header>
+<?php require_once("../Header/Header.php");?> 
 <!--=================================
 header -->
 
 <!--=================================
 banner -->
-<section class="header-inner header-inner-big bg-holder text-white" style="background-image: url(../../public/images/bg/banner-01.jpg);">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <div class="job-search-field">
-          <div class="job-search-item">
-            <form class="form row">
-              <div class="col-lg-5">
-                <div class="form-group left-icon">
-                  <input type="text" class="form-control" name="job_title" placeholder="¿Qué?">
-                <i class="fas fa-search"></i> </div>
-              </div>
-              <div class="col-lg-5">
-                <div class="form-group left-icon">
-                  <input type="text" class="form-control" name="job_title" placeholder="¿Dónde?">
-                <i class="fas fa-search"></i> </div>
-              </div>
-              <div class="col-lg-2 col-sm-12">
-                <div class="form-group form-action">
-                  <button type="submit" class="btn btn-primary mt-0"><i class="fas fa-search-location"></i> Buscar</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<?php require_once("../Banner/banner.php");?> 
 <!--=================================
 banner -->
 
@@ -449,59 +386,13 @@ job-list -->
 
 <!--=================================
 feature -->
-<section class="feature-info-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 mb-lg-0 mb-4">
-        <div class="feature-info feature-info-02 p-4 p-lg-5 bg-primary">
-          <div class="feature-info-icon mb-3 mb-sm-0 text-dark">
-            <i class="flaticon-team"></i>
-          </div>
-          <div class="feature-info-content text-white pl-sm-4 pl-0">
-            <p>Postulante</p>
-            <h5 class="text-white">¿Buscando trabajo?</h5>
-          </div>
-          <a class="ml-auto align-self-center" href="#">Postular<i class="fas fa-long-arrow-alt-right"></i> </a>
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="feature-info feature-info-02 p-4 p-lg-5 bg-dark">
-          <div class="feature-info-icon mb-3 mb-sm-0 text-primary">
-            <i class="flaticon-job-3"></i>
-          </div>
-          <div class="feature-info-content text-white pl-sm-4 pl-0">
-            <p>Reclutador</p>
-            <h5 class="text-white">¿Está reclutando?</h5>
-          </div>
-          <a class="ml-auto align-self-center" href="#">Publicar<i class="fas fa-long-arrow-alt-right"></i> </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+<?php require_once("../Feature/Feature.php");?> 
 <!--=================================
 feature -->
 
 <!--=================================
 footer-->
-<footer class="footer mt-0">
-    <div class="container">
-        <div class="row">
-        <div class="col-md-12">
-            <div class="border-bottom"></div>
-        </div>
-        </div>
-    </div>
-    <div class="footer-bottom bg-dark">
-        <div class="container">
-        <div class="row">
-            <div class="col-md-8 text-center text-md-left">
-            <p class="mb-0"> &copy;Copyright <span id="copyright"> <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> <a href="#"> AnderJobs</> </a> All Rights Reserved </p>
-            </div>
-        </div>
-        </div>
-    </div>
-</footer>
+<?php require_once("../Footer/footer.php");?> 
 <!--=================================
 footer-->
 
@@ -643,18 +534,10 @@ Signin Modal Popup -->
 
 <!--=================================
 Javascript -->
-
-    <!-- JS Global Compulsory (Do not remove)-->
-    <script src="..\..\public\js\jquery-3.4.1.min.js"></script>
-    <script src="..\..\public\js\popper\popper.min.js"></script>
-    <script src="..\..\public\js\bootstrap\bootstrap.min.js"></script>
-
-    <!-- Page JS Implementing Plugins (Remove the plugin script here if site does not use that feature)-->
-    <script src="..\..\public\js\select2\select2.full.js"></script>
-
-    <!-- Template Scripts (Do not remove)-->
-    <script src="..\..\public\js\custom.js"></script>
-
+<?php require_once("../Jsglobal/jsglobal.php");?> 
+<!--=================================
+Javascript -->
+    
 </body>
 
 </html>
