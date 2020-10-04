@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <?php require_once("../Head/head.php");?> 
     <title>AnderJobs</></title>
@@ -28,7 +28,7 @@ job list -->
           <div class="col-md-12">
             <div class="job-list border">
               <div class=" job-list-logo">
-                <img class="img-fluid" src="images\svg\10.svg" alt="">
+                <img class="img-fluid" src="..\..\public\images\svg\10.svg" alt="">
               </div>
               <div class="job-list-details">
                 <div class="job-list-info">
@@ -214,7 +214,7 @@ job list -->
             <div class="similar-jobs-item widget-box">
               <div class="job-list">
                 <div class="job-list-logo">
-                  <img class="img-fluid" src="images\svg\17.svg" alt="">
+                  <img class="img-fluid" src="..\..\public\images\svg\17.svg" alt="">
                 </div>
                 <div class="job-list-details">
                   <div class="job-list-info">
@@ -235,7 +235,7 @@ job list -->
               </div>
               <div class="job-list">
                 <div class="job-list-logo">
-                  <img class="img-fluid" src="images\svg\18.svg" alt="">
+                  <img class="img-fluid" src="..\..\public\images\svg\18.svg" alt="">
                 </div>
                 <div class="job-list-details">
                   <div class="job-list-info">
@@ -256,7 +256,7 @@ job list -->
               </div>
               <div class="job-list">
                 <div class="job-list-logo">
-                  <img class="img-fluid" src="images\svg\19.svg" alt="">
+                  <img class="img-fluid" src="..\..\public\images\svg\19.svg" alt="">
                 </div>
                 <div class="job-list-details">
                   <div class="job-list-info">

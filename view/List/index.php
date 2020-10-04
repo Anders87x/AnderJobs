@@ -21,7 +21,7 @@ banner -->
 <!--=================================
 job-list -->
 <section class="space-ptb">
-<div class="container">
+  <div class="container">
   <div class="row">
     <div class="col-lg-3">
       <!--=================================
@@ -398,9 +398,9 @@ footer-->
 
 <!--=================================
 Back To Top-->
-   <div id="back-to-top" class="back-to-top">
-     <i class="fas fa-angle-up"></i>
-   </div>
+<div id="back-to-top" class="back-to-top">
+  <i class="fas fa-angle-up"></i>
+</div>
 <!--=================================
 Back To Top-->
 

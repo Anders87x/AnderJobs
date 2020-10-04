@@ -4,5 +4,7 @@
 <script src="..\..\public\js\bootstrap\bootstrap.min.js"></script>
 <!-- Page JS Implementing Plugins (Remove the plugin script here if site does not use that feature)-->
 <script src="..\..\public\js\select2\select2.full.js"></script>
+<script src="..\..\public\js\datetimepicker\moment.min.js"></script>
+<script src="..\..\public\js\datetimepicker\datetimepicker.min.js"></script>
 <!-- Template Scripts (Do not remove)-->
 <script src="..\..\public\js\custom.js"></script>
